@@ -1,5 +1,4 @@
-I202210798;Ivan Guillermo;Rupay Alvarez;I202210798@cibertec.edu.pe;933777024;Fracasado;12345
-I202210362;Sebastian Pedro;Sanchez Perez;I202210362@cibertec.edu.pe;911365102;Pasante;12345
-I202210175;Carlos Jorge;Alcantara Velasquez;I202210175@cibertec.edu.pe;974436123;Egresado;12345
-I202210735;Gonzalo Fabian;Smith Luque;I202210735@cibertec.edu.pe;907758935;Pasante;12345
-I202210285;Mayra Marta;Tazaico Jimenez;I202210285@cibertec.edu.pe;966102748;Egresado;12345
+I202210798;Ivan Guillermo;Rupay Alvarez;I202210798@cibertec.edu.pe;933777024;Pasante;12345
+I202213082;Gad Josue;Alva Castromonte;I202213082@cibertec.edu.pe;941123808;Pasante;12345
+I202211271;Julio Rube;Perez Olivo;I202211271@cibertec.edu.pe;942922543;Pasante;12345
+I202211906;Nicolas Aristides;Sembrera Jimenez;I202211906@cibertec.edu.pe;963238402;Pasante;12345
