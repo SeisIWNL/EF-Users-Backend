@@ -16,13 +16,13 @@ public class UserController {
     @Autowired
     UserService userService;
 
-    @PostMapping("/login")
+    @PostMapping("/autenticar")
     public LoginResponseDTO login(@RequestBody LoginRequestDTO loginRequest) {
         try {
             String[] dataUser = userService.validarUser(loginRequest);
             System.out.println("Resultado: " + Arrays.toString(dataUser));
             if (dataUser == null || dataUser.length == 0) {
-                return new LoginResponseDTO("There","Are","0","Users","In","dataUser X.X");
+                return new LoginResponseDTO("NO","USER","FOUND","IN", "integrantes.txt","X.X");
             }
             return new LoginResponseDTO(dataUser[0],dataUser[1],dataUser[2],dataUser[3],dataUser[4],dataUser[5]);
         } catch (Exception e) {
@@ -30,7 +30,7 @@ public class UserController {
         }
     }
 
-    @GetMapping("/list")
+    @GetMapping("/get-integrantes")
     public List<LoginResponseDTO> list() {
         try {
             List<String[]> userList = userService.listarUsers();

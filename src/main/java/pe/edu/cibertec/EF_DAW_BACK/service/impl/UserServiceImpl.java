@@ -48,7 +48,7 @@ public class UserServiceImpl implements UserService {
 
     private List<String[]> leerUsuarios() throws IOException {
         if (resource == null) {
-            resource = resourceLoader.getResource("classpath:usuarios.txt");
+            resource = resourceLoader.getResource("classpath:integrantes.txt");
         }
 
         List<String[]> usuarios = new ArrayList<>();
@@ -60,7 +60,7 @@ public class UserServiceImpl implements UserService {
                 usuarios.add(data);
             }
         } catch (IOException e) {
-            throw new IOException("Error al leer el archivo de usuarios.txt", e);
+            throw new IOException("Error al leer el archivo de integrantes.txt", e);
         }
         return usuarios;
     }
